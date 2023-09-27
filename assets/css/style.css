@@ -44,15 +44,13 @@ nav {
     content:'' ;
     width: 0%;
     height: 2px;
-    background:white;
+    background:rgb(244, 228, 6);
     display: block;
     margin: auto;
     transition: 0.5s;
 }
+.nav-links ul li:hover::after {width: 100%;}
 
-hover:after {
-    width: 100%;
-}
 
 .text-box {width: 90%;
 color: white;
@@ -67,7 +65,7 @@ text-align: center;
 }
 
 .text-box p {margin: 10px 0 40px;
-font-size: 14px;
+font-size: 16px;
 color: white;}
 
 .hero-btn {
@@ -103,13 +101,15 @@ nav .fa {display: none;}
 height: 100vh;
 width: 200px;
 top: 0;
-right: 0;
+right: -200px;
 text-align: left;
 z-index: 2;}
 
 nav .fa {display: block;
-color: white;
+color: black;
 margin: 10px;
 font-size: 22px;
 cursor: pointer;}
+
+.nav-links ul {padding:30px ;}
 }
