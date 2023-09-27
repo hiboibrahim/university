@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+.myheader {
+    min-height: 100vh;
+    width: 100%;
+
+background-image: url("../media/hero-image.jpeg");
+background-position:center;
+background-size: cover;
+position: relative;
+
+}
