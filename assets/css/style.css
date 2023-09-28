@@ -14,6 +14,10 @@
     position: relative;
 
 }
+.logo {text-decoration: none;
+color: white;
+font-weight: bold;
+font-size: large;}
 
 nav {
     display: flex;
@@ -44,7 +48,7 @@ nav {
     content:'' ;
     width: 0%;
     height: 2px;
-    background:rgb(244, 228, 6);
+    background:rgb(255, 255, 255);
     display: block;
     margin: auto;
     transition: 0.5s;
